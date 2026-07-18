@@ -1,0 +1,17 @@
+Algorithm,fit_intercept,copy_X,positive,tol,R2 Score
+Multiple Linear Regression,TRUE,TRUE,FALSE,1.00E-03,0.789479035
+Multiple Linear Regression,TRUE,TRUE,FALSE,1.00E-06,0.789479035
+Multiple Linear Regression,TRUE,FALSE,FALSE,1.00E-03,0.789479035
+Multiple Linear Regression,TRUE,FALSE,FALSE,1.00E-06,0.789479035
+Multiple Linear Regression,TRUE,TRUE,TRUE,1.00E-03,0.789442939
+Multiple Linear Regression,TRUE,TRUE,TRUE,1.00E-06,0.789442939
+Multiple Linear Regression,TRUE,FALSE,TRUE,1.00E-03,0.789442939
+Multiple Linear Regression,TRUE,FALSE,TRUE,1.00E-06,0.789442939
+Multiple Linear Regression,FALSE,TRUE,FALSE,1.00E-03,0.762372328
+Multiple Linear Regression,FALSE,TRUE,FALSE,1.00E-06,0.762372328
+Multiple Linear Regression,FALSE,FALSE,FALSE,1.00E-03,0.762372328
+Multiple Linear Regression,FALSE,FALSE,FALSE,1.00E-06,0.762372328
+Multiple Linear Regression,FALSE,TRUE,TRUE,1.00E-03,0.761433294
+Multiple Linear Regression,FALSE,TRUE,TRUE,1.00E-06,0.761433294
+Multiple Linear Regression,FALSE,FALSE,TRUE,1.00E-03,0.761433294
+Multiple Linear Regression,FALSE,FALSE,TRUE,1.00E-06,0.761433294
