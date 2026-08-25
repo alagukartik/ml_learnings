@@ -1,0 +1,11 @@
+Model,Accuracy,Precision,Recall,F1 Weighted,ROC-AUC,CV Best Score,Best Parameters
+Categorical Naive Bayes,0.992481203,0.992570712,0.992481203,0.992465741,0.999518072,0.988693011,"{'classifier__alpha': 0.01, 'classifier__fit_prior': True, 'discretizer__n_bins': 15}"
+Logistic Regression,0.984962406,0.984962406,0.984962406,0.984962406,0.999518072,0.996243407,"{'classifier__C': 0.1, 'classifier__solver': 'lbfgs'}"
+Gaussian Naive Bayes,0.977443609,0.977646771,0.977443609,0.977486922,0.989759036,0.988758007,{'classifier__var_smoothing': 1e-11}
+Bernoulli Naive Bayes,0.977443609,0.977646771,0.977443609,0.977486922,0.989759036,0.988758007,"{'binarizer__threshold': 0.25, 'classifier__alpha': 0.01, 'classifier__fit_prior': True}"
+Random Forest,0.977443609,0.977646771,0.977443609,0.977486922,0.999518072,0.988655801,"{'criterion': 'gini', 'max_depth': None, 'max_features': 'log2', 'n_estimators': 100}"
+SVM,0.969924812,0.970606716,0.969924812,0.970036282,0.998795181,0.988758007,"{'classifier__C': 0.1, 'classifier__gamma': 'auto', 'classifier__kernel': 'linear'}"
+Multinomial Naive Bayes,0.954887218,0.957291259,0.954887218,0.955197824,0.99686747,0.988758007,"{'classifier__alpha': 0.01, 'classifier__fit_prior': True}"
+Complement Naive Bayes,0.954887218,0.957291259,0.954887218,0.955197824,0.99686747,0.988758007,"{'classifier__alpha': 0.01, 'classifier__fit_prior': True, 'classifier__norm': False}"
+Decision Tree,0.954887218,0.957291259,0.954887218,0.955197824,0.959879518,0.980980999,"{'criterion': 'gini', 'max_depth': None, 'max_features': None, 'splitter': 'random'}"
+KNN,0.947368421,0.953831948,0.947368421,0.947931458,0.987108434,0.981272607,"{'classifier__n_neighbors': 3, 'classifier__p': 2, 'classifier__weights': 'uniform'}"
